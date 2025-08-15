@@ -191,10 +191,10 @@ def ay_animasyonu():
 
 #  TUŞLARLARLA GEÇİŞ SAĞLAMA    
 turtle.listen()
-turtle.onkey(gece_manzarası,"a") # n tuşuna bastığında gece manzarasını çizer
-turtle.onkey(gunduz_manzarası,"b")# g tuşuna bastığında gündüz manzarasını çizer
-turtle.onkey(gunes_animasyonu,"c")# a tuşuna bastığında güneş anımasyonunu  manzarasını çalıştırır.
-turtle.onkey(ay_animasyonu,"d")# b tuşuna bastığında güneş anımasyonunu  manzarasını çalıştırır.
+turtle.onkey(gece_manzarası,"a") # a tuşuna bastığında gece manzarasını çizer
+turtle.onkey(gunduz_manzarası,"b")# b tuşuna bastığında gündüz manzarasını çizer
+turtle.onkey(gunes_animasyonu,"c")# c tuşuna bastığında güneş anımasyonunu  manzarasını çalıştırır.
+turtle.onkey(ay_animasyonu,"d")# d tuşuna bastığında güneş anımasyonunu  manzarasını çalıştırır.
 turtle.done()
 
 
